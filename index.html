@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" x-frame-options="sameorigin">
+<head>
+<meta http-equiv="Content-Security-Policy1" content="default-src 'self'; font-src * data:; style-src 'self' 'unsafe-inline';">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="PRAGMA" content="NO-CACHE">
+<meta http-equiv="Expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="mobile web 一直都是這些年來的新興的玩意兒, 不過由於 APP 的排擠效應, 以及 mobile browser 的 performance issue, 所以它總是很容易就被冷落到一旁. 現在很多 APP 的開發模式是採用 Hybrid 的方式來組成, 由原生的 native code 搭配 mobile web 的呈現相輔相成, 便可以快速的完成功能開發與佈署, 也就是說 mobile web 可以應用的範圍便更加的寬廣了, 不過同樣的 page 在 browser standalone 或者 in app 的功能或者呈現可能有所差異, 筆者心想要如何在最短的時間內達到這類的環境判斷呢?! 於是乎便開發了這樣的禁斷咒術, 如同先前的 remPolyfill, 筆者在 navigator 上作擴展, 多了 inAPP 以及 isMobile 這兩個變數來讓我們做此類的環境判斷, 如此一來 developers 便可以透過取得這些變數來讓當前的 mobile web 在長相或者操作上可以更加的靈活變化. 達到立與美兩者兼具的境地.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@mei">
+<meta name="twitter:creator" content="@mei">
+<meta name="twitter:title" content="inAPP Detect Prototype">
+<meta name="twitter:description" content="mobile web 一直都是這些年來的新興的玩意兒, 不過由於 APP 的排擠效應, 以及 mobile browser 的 performance issue, 所以它總是很容易就被冷落到一旁. 現在很多 APP 的開發模式是採用 Hybrid 的方式來組成, 由原生的 native code 搭配 mobile web 的呈現相輔相成, 便可以快速的完成功能開發與佈署, 也就是說 mobile web 可以應用的範圍便更加的寬廣了, 不過同樣的 page 在 browser standalone 或者 in app 的功能或者呈現可能有所差異, 筆者心想要如何在最短的時間內達到這類的環境判斷呢?! 於是乎便開發了這樣的禁斷咒術, 如同先前的 remPolyfill, 筆者在 navigator 上作擴展, 多了 inAPP 以及 isMobile 這兩個變數來讓我們做此類的環境判斷, 如此一來 developers 便可以透過取得這些變數來讓當前的 mobile web 在長相或者操作上可以更加的靈活變化. 達到立與美兩者兼具的境地.">
+<meta name="twitter:image:src" content="http://mei.homin.com.tw/img/preview/inAPP.png">
+<meta property="og:title" content="inAPP Detect Prototype">
+<meta property="og:site_name" content="mei">
+<meta property="og:description" content="mobile web 一直都是這些年來的新興的玩意兒, 不過由於 APP 的排擠效應, 以及 mobile browser 的 performance issue, 所以它總是很容易就被冷落到一旁. 現在很多 APP 的開發模式是採用 Hybrid 的方式來組成, 由原生的 native code 搭配 mobile web 的呈現相輔相成, 便可以快速的完成功能開發與佈署, 也就是說 mobile web 可以應用的範圍便更加的寬廣了, 不過同樣的 page 在 browser standalone 或者 in app 的功能或者呈現可能有所差異, 筆者心想要如何在最短的時間內達到這類的環境判斷呢?! 於是乎便開發了這樣的禁斷咒術, 如同先前的 remPolyfill, 筆者在 navigator 上作擴展, 多了 inAPP 以及 isMobile 這兩個變數來讓我們做此類的環境判斷, 如此一來 developers 便可以透過取得這些變數來讓當前的 mobile web 在長相或者操作上可以更加的靈活變化. 達到立與美兩者兼具的境地.">
+<meta property="og:image" content="http://mei.homin.com.tw/img/preview/inAPP.png">
+<title>inAPP Detect Prototype</title>
+<link rel="dns-prefetch" href="//mei.homin.com.tw">
+<link rel="canonical" href="http://mei.homin.com.tw/inAPPPrototype.html">
+<link rel="stylesheet" href="css/cssbase.css">
+<link rel="stylesheet" href="css/adornFormElements.css">
+<link rel="stylesheet" href="css/in-app.css">
+<script src="js/pageRender.js" data-source="js/inAPP.js&js/inAPPInit.js"></script>
+</head>
+
+<body>
+<header id="hd" role="banner">
+	<h1>inAPP Detect Prototype</h1>
+</header>
+
+<main id="bd" role="main">
+	<p>inAPP Detect project.</p>
+</main>
+
+<footer id="ft">
+	<small role="contentinfo">Powered by mei's studio.</small>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "CreativeWork",
+  "name": "inAPP Detect Prototype",
+  "url": "http://mei.homin.com.tw/inAPPPrototype.html",
+  "description": "mobile web 一直都是這些年來的新興的玩意兒, 不過由於 APP 的排擠效應, 以及 mobile browser 的 performance issue, 所以它總是很容易就被冷落到一旁. 現在很多 APP 的開發模式是採用 Hybrid 的方式來組成, 由原生的 native code 搭配 mobile web 的呈現相輔相成, 便可以快速的完成功能開發與佈署, 也就是說 mobile web 可以應用的範圍便更加的寬廣了, 不過同樣的 page 在 browser standalone 或者 in app 的功能或者呈現可能有所差異, 筆者心想要如何在最短的時間內達到這類的環境判斷呢?! 於是乎便開發了這樣的禁斷咒術, 如同先前的 remPolyfill, 筆者在 navigator 上作擴展, 多了 inAPP 以及 isMobile 這兩個變數來讓我們做此類的環境判斷, 如此一來 developers 便可以透過取得這些變數來讓當前的 mobile web 在長相或者操作上可以更加的靈活變化. 達到立與美兩者兼具的境地.",
+  "image": "http://mei.homin.com.tw/img/preview/inAPP.png",
+  "author": {
+	  "@type": "Person",
+	  "name": "Paul Li",
+	  "jobTitle": "Front End engineer",
+	  "affiliation": "mei's studio",
+	  "additionalName": "mei",
+	  "url": "https://www.facebook.com/mei.studio.li",
+	  "image": "https://graph.facebook.com/mei.studio.li/picture",
+	  "brand": "mei's studio",
+	  "familyName": "Li",
+	  "gender": "M",
+	  "givenName": "Paul",
+	  "owns": "mei's studio",
+	  "worksFor": "Yahoo",
+	  "description": "People who loves all front end skills"
+  },
+  "dateCreated": "2016-09-01",
+  "datePublished": "2016-09-01",
+  "genre": "mobile web",
+  "keywords": "mobileWeb,inAPP,isMobile"
+}
+</script>
+</body>
+</html>
